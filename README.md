@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Site — Projeto de Extensão: Fibrose Cística
 
-## Getting Started
+Site one-page em Next.js (App Router) + Tailwind CSS + Framer Motion.
 
-First, run the development server:
+## Por que essa stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js**: gera um site rápido, ótimo para SEO (importante — muita gente vai chegar aqui pelo Google buscando "sintomas fibrose cística" etc).
+- **Conteúdo em JSON separado da interface**: todo o texto, links de referências, fotos da equipe e do projeto ficam em `/content/*.json`. O grupo NÃO precisa mexer em código para atualizar texto — só editar esses arquivos (ou, no futuro, conectar a um CMS como Sanity/Decap que edita esses mesmos dados visualmente).
+- **Framer Motion**: anima os elementos suavemente ao rolar a página, sem ser exagerado.
+
+## Estrutura de pastas
+
+```
+fibrose-cistica/
+├── app/
+│   ├── layout.tsx          # layout raiz, fontes, metadata SEO
+│   ├── page.tsx            # monta a página juntando todas as seções
+│   └── globals.css         # tokens de cor, tipografia, tailwind
+├── components/
+│   ├── Nav.tsx              # menu fixo com rolagem suave
+│   ├── Hero.tsx              # seção "Início"
+│   ├── SectionReveal.tsx    # wrapper de animação fade/slide reutilizável
+│   ├── (próximos: OQueE.tsx, Sintomas.tsx, Diagnostico.tsx,
+│   │   Tratamento.tsx, Pesquisas.tsx, Projeto.tsx, Materiais.tsx,
+│   │   Equipe.tsx, Referencias.tsx — mesmo padrão do Hero)
+├── content/
+│   ├── site.json            # nome do projeto, slogan, textos de cada seção
+│   ├── equipe.json          # membros da equipe (nome, foto, função)
+│   ├── projeto.json         # fotos/registros do projeto de extensão
+│   ├── materiais.json       # arquivos para download (PDFs, etc.)
+│   └── referencias.json     # fontes científicas (título, autores, link, ano)
+└── public/images/
+    ├── equipe/               # fotos da equipe
+    └── projeto/              # fotos do projeto de extensão
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Como o grupo vai atualizar o conteúdo (sem programar)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Curto prazo (agora):** abrir os arquivos `.json` dentro de `/content` em qualquer editor de texto (até o Bloco de Notas funciona) e trocar os valores entre aspas. A estrutura de cada campo está comentada abaixo. Nenhum componente precisa ser tocado.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Médio prazo (recomendado):** conectar ao **Decap CMS** (gratuito, guarda tudo no GitHub, interface visual tipo formulário) ou **Sanity** (interface mais bonita, plano gratuito generoso). Como todo o conteúdo já está isolado em JSON com essa mesma forma, a migração é só apontar o CMS para gerar esses arquivos — não precisa reescrever nenhum componente React.
 
-## Learn More
+## Rodando localmente
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npx create-next-app@latest fibrose-cistica --typescript --tailwind --app
+cd fibrose-cistica
+npm install framer-motion
+# copiar os arquivos deste pacote para dentro do projeto criado
+npm run dev
+```

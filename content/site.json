@@ -1,0 +1,108 @@
+{
+  "projeto": {
+    "nome": "Respirar & Cuidar",
+    "slogan": "Entre desafios e possibilidades, informação também é cuidado.",
+    "descricaoCurta": "Um projeto de extensão universitária dedicado a levar informação confiável sobre Fibrose Cística para estudantes, profissionais de saúde, famílias e a população em geral."
+  },
+  "navegacao": [
+    { "id": "inicio", "rotulo": "Início" },
+    { "id": "o-que-e", "rotulo": "O que é" },
+    { "id": "sintomas", "rotulo": "Sintomas" },
+    { "id": "diagnostico", "rotulo": "Diagnóstico" },
+    { "id": "tratamento", "rotulo": "Tratamento" },
+    { "id": "pesquisas", "rotulo": "Pesquisas" },
+    { "id": "projeto", "rotulo": "Projeto" },
+    { "id": "materiais", "rotulo": "Materiais" },
+    { "id": "equipe", "rotulo": "Equipe" },
+    { "id": "referencias", "rotulo": "Referências" }
+  ],
+  "oQueE": {
+    "titulo": "O que é Fibrose Cística",
+    "paragrafos": [
+      "A Fibrose Cística é uma doença genética, hereditária e crônica que afeta principalmente os pulmões e o sistema digestivo. Ela é causada por uma alteração no gene CFTR, responsável por regular o transporte de sal e água nas células do corpo.",
+      "Essa alteração faz com que o muco produzido pelo corpo fique mais espesso e pegajoso do que o normal, dificultando a respiração e favorecendo infecções respiratórias recorrentes, além de prejudicar a absorção de nutrientes."
+    ],
+    "destaques": [
+      { "numero": "1 em 10.000", "legenda": "é a incidência estimada de Fibrose Cística em nascidos vivos no Brasil" },
+      { "numero": "Genética", "legenda": "não é contagiosa — é transmitida dos pais para os filhos" },
+      { "numero": "Multissistêmica", "legenda": "afeta principalmente pulmões, pâncreas e sistema digestivo" }
+    ]
+  },
+  "sintomas": {
+    "titulo": "Sintomas e manifestações",
+    "introducao": "Os sintomas variam de pessoa para pessoa, mas costumam envolver o sistema respiratório e digestivo desde os primeiros anos de vida.",
+    "itens": [
+      { "titulo": "Respiratórios", "descricao": "Tosse persistente, infecções pulmonares frequentes, falta de ar e chiado no peito." },
+      { "titulo": "Digestivos", "descricao": "Dificuldade para ganhar peso, fezes gordurosas e má absorção de nutrientes." },
+      { "titulo": "Suor salgado", "descricao": "Um dos sinais clássicos — a pele apresenta um teor de sal acima do normal." },
+      { "titulo": "Crescimento", "descricao": "Atraso no crescimento e desenvolvimento em crianças, mesmo com boa alimentação." }
+    ]
+  },
+  "diagnostico": {
+    "titulo": "Diagnóstico",
+    "introducao": "Quanto mais cedo o diagnóstico, melhor o acompanhamento e a qualidade de vida da pessoa com Fibrose Cística.",
+    "etapas": [
+      { "titulo": "Triagem neonatal", "descricao": "O 'teste do pezinho' pode identificar sinais da doença já nos primeiros dias de vida." },
+      { "titulo": "Teste do suor", "descricao": "Exame padrão-ouro: mede a concentração de sal no suor, que costuma estar elevada em pessoas com Fibrose Cística." },
+      { "titulo": "Teste genético", "descricao": "Identifica mutações no gene CFTR e confirma o diagnóstico com precisão." },
+      { "titulo": "Acompanhamento clínico", "descricao": "Avaliação de sintomas respiratórios e digestivos junto a exames de imagem e função pulmonar." }
+    ]
+  },
+  "tratamento": {
+    "titulo": "Tratamento e cuidados",
+    "introducao": "Não existe cura, mas o tratamento contínuo e multidisciplinar melhora muito a qualidade e a expectativa de vida.",
+    "pilares": [
+      { "titulo": "Fisioterapia respiratória", "descricao": "Ajuda a eliminar o excesso de muco dos pulmões e a manter a função respiratória." },
+      { "titulo": "Medicamentos", "descricao": "Incluem antibióticos, mucolíticos, enzimas pancreáticas e moduladores da proteína CFTR." },
+      { "titulo": "Suporte nutricional", "descricao": "Dieta hipercalórica e reposição de enzimas para garantir a absorção adequada de nutrientes." },
+      { "titulo": "Acompanhamento multidisciplinar", "descricao": "Equipe com pneumologista, nutricionista, fisioterapeuta e psicólogo trabalhando em conjunto." }
+    ]
+  },
+  "pesquisas": {
+    "titulo": "Pesquisas e informações científicas",
+    "introducao": "Nos últimos anos, avanços significativos têm transformado o cenário da Fibrose Cística, especialmente com o desenvolvimento de terapias moduladoras da proteína CFTR.",
+    "topicos": [
+      "Moduladores de CFTR já aprovados têm mudado a progressão da doença em pacientes elegíveis.",
+      "Estudos em terapia gênica buscam corrigir a causa genética da doença na origem.",
+      "Novos protocolos de fisioterapia e reabilitação pulmonar têm ampliado a sobrevida e a qualidade de vida.",
+      "Pesquisas brasileiras têm contribuído para ampliar o acesso à triagem neonatal e ao diagnóstico precoce."
+    ]
+  },
+  "projeto": {
+    "titulo": "Projeto de Extensão",
+    "sobre": "Este projeto nasceu do desejo de aproximar a universidade da comunidade, levando informação confiável sobre Fibrose Cística a quem mais precisa: famílias, profissionais de saúde e a população em geral. Ao longo do projeto, promovemos rodas de conversa, produção de materiais educativos e ações em parceria com instituições de saúde.",
+    "registros": [
+      { "legenda": "Roda de conversa com familiares", "foto": "" },
+      { "legenda": "Produção de material educativo", "foto": "" },
+      { "legenda": "Ação em unidade de saúde", "foto": "" },
+      { "legenda": "Encontro da equipe de extensão", "foto": "" }
+    ]
+  },
+  "materiais": {
+    "titulo": "Nosso trabalho escrito",
+    "introducao": "Materiais produzidos pelo grupo, disponíveis para download gratuito.",
+    "arquivos": [
+      { "titulo": "Cartilha educativa sobre Fibrose Cística", "tipo": "PDF", "url": "#" },
+      { "titulo": "Relatório do projeto de extensão", "tipo": "PDF", "url": "#" }
+    ]
+  },
+  "equipe": {
+    "titulo": "Equipe",
+    "introducao": "Estudantes e docentes envolvidos no projeto de extensão.",
+    "membros": [
+      { "nome": "Alice Rebeca", "funcao": "Meu Amor", "foto": "/images/equipe/foto_rebeca.jpg" },
+      { "nome": "Nome do integrante", "funcao": "Estudante extensionista", "foto": "/images/equipe/placeholder.jpg" },
+      { "nome": "Nome do integrante", "funcao": "Estudante extensionista", "foto": "/images/equipe/placeholder.jpg" },
+      { "nome": "Nome do integrante", "funcao": "Estudante extensionista", "foto": "/images/equipe/placeholder.jpg" }
+    ]
+  },
+  "referencias": {
+    "titulo": "Referências e Fontes",
+    "introducao": "Este conteúdo foi construído com base em fontes científicas reconhecidas. Consulte os artigos originais para aprofundamento.",
+    "lista": [
+      { "titulo": "Cystic Fibrosis Foundation — Sobre a Fibrose Cística", "autores": "Cystic Fibrosis Foundation", "ano": "2024", "url": "https://www.cff.org" },
+      { "titulo": "Diretrizes Brasileiras de Fibrose Cística", "autores": "Sociedade Brasileira de Pneumologia e Tisiologia", "ano": "2023", "url": "#" },
+      { "titulo": "Triagem Neonatal para Fibrose Cística no Brasil", "autores": "Ministério da Saúde", "ano": "2022", "url": "#" }
+    ]
+  }
+}
