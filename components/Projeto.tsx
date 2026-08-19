@@ -6,7 +6,7 @@ import SectionReveal from "@/components/SectionReveal";
 import site from "@/content/site.json";
 
 export default function Projeto() {
-  const { titulo, sobre, registros } = site.projeto;
+  const { titulo, sobre, registros } = site.projetoExtensao;
   const trilhaRef = useRef<HTMLDivElement>(null);
 
   const rolar = (direcao: 1 | -1) => {

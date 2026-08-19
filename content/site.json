@@ -68,8 +68,8 @@
       "Pesquisas brasileiras têm contribuído para ampliar o acesso à triagem neonatal e ao diagnóstico precoce."
     ]
   },
-  "projeto": {
-    "titulo": "Projeto de Extensão",
+  "projetoExtensao": {
+  "titulo": "Projeto de Extensão",
     "sobre": "Este projeto nasceu do desejo de aproximar a universidade da comunidade, levando informação confiável sobre Fibrose Cística a quem mais precisa: famílias, profissionais de saúde e a população em geral. Ao longo do projeto, promovemos rodas de conversa, produção de materiais educativos e ações em parceria com instituições de saúde.",
     "registros": [
       { "legenda": "Roda de conversa com familiares", "foto": "" },
