@@ -9,7 +9,9 @@ import Projeto from "@/components/Projeto";
 import Materiais from "@/components/Materiais";
 import Equipe from "@/components/Equipe";
 import Referencias from "@/components/Referencias";
+import Entrevista from "@/components/Entrevista";
 import Rodape from "@/components/Rodape";
+
 
 export default function Home() {
   return (
@@ -25,6 +27,7 @@ export default function Home() {
       <Materiais />
       <Equipe />
       <Referencias />
+      <Entrevista />
       <Rodape />
     </main>
   );
