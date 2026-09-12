@@ -91,7 +91,7 @@
     "titulo": "Equipe",
     "introducao": "Estudantes e docentes envolvidos no projeto de extensão.",
     "membros": [
-      { "nome": "Alice Rebeca", "funcao": "Meu Amor", "foto": "/images/equipe/foto_rebeca.jpg" },
+      { "nome": "Alice Rebeca", "funcao": "Representante de equipe", "foto": "/images/equipe/foto_rebeca.jpg" },
       { "nome": "Alícia Maysa", "funcao": "Apresentação Visual", "foto": "/images/equipe/foto_alicia_maysa.jpeg" },
       { "nome": "Anna Beatriz Soares", "funcao": "Produção Textual", "foto": "/images/equipe/foto_anna_beatriz.jpeg" },
       { "nome": "Beatriz Carvalho", "funcao": "Produção Textual", "foto": "/images/equipe/foto_beatriz_carvalho.jpeg" },
