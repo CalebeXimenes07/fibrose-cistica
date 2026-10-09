@@ -82,7 +82,7 @@
     "titulo": "Nosso trabalho escrito",
     "introducao": "Materiais produzidos pelo grupo, disponíveis para download gratuito.",
     "arquivos": [
-            { "titulo": "Trabalho Escrito do Projeto", "tipo": "PDF", "url": "/images/projeto/fibrose_cistica_documento.pdf" }
+            { "titulo": "Trabalho Escrito do Projeto Científico", "tipo": "PDF", "url": "/images/projeto/fibrose_cistica_documento.pdf" }
     ]
   },
   "equipe": {
