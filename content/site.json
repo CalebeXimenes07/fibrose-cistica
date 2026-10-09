@@ -82,8 +82,7 @@
     "titulo": "Nosso trabalho escrito",
     "introducao": "Materiais produzidos pelo grupo, disponíveis para download gratuito.",
     "arquivos": [
-      { "titulo": "Cartilha educativa sobre Fibrose Cística", "tipo": "PDF", "url": "#" },
-      { "titulo": "Relatório do projeto de extensão", "tipo": "PDF", "url": "#" }
+            { "titulo": "Trabalho Escrito do Projeto", "tipo": "PDF", "url": "/images/projeto/fibrose_cistica_documento.pdf" }
     ]
   },
   "equipe": {
