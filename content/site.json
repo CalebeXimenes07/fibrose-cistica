@@ -105,7 +105,9 @@
       { "nome": "Letícia Vitória", "funcao": "Marketing", "foto": "/images/equipe/foto_leticia_vitoria.jpeg" },
       { "nome": "Ludimylla Fernanda", "funcao": "Projeto de Extensão 1", "foto": "/images/equipe/foto_ludimylla_fernanda.jpeg" },
       { "nome": "Maria Isabel Padilha", "funcao": "Projeto de Extensão 1", "foto": "/images/equipe/foto_maria_isabel.jpeg" },
-      { "nome": "Mydiã Barbosa", "funcao": "Projeto de Extensão 2", "foto": "/images/equipe/foto_mydia_barbosa.jpeg" }
+      { "nome": "Mydiã Barbosa", "funcao": "Projeto de Extensão 2", "foto": "/images/equipe/foto_mydia_barbosa.jpeg" },
+      { "nome": "Sophia Castro", "funcao": "Projeto de Extensão 1", "foto": "/images/equipe/foto_sophia_castro.jpeg" },
+      { "nome": "Rodrigo Henrique", "funcao": "Apresentação", "foto": "/images/equipe/foto_rodrigo_henrique.jpeg" }
       
     ]
   },
