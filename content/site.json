@@ -73,16 +73,14 @@
   "titulo": "Projeto de Extensão",
     "sobre": "Este projeto nasceu do desejo de aproximar a universidade da comunidade, levando informação confiável sobre Fibrose Cística a quem mais precisa: famílias, profissionais de saúde e a população em geral. Ao longo do projeto, promovemos rodas de conversa, produção de materiais educativos e ações em parceria com instituições de saúde.",
     "registros": [
-      { "legenda": "Ação extensionista em frente ao IMIP", "foto": "/images/projeto/acao_extensionista_em_frente_imip.jpeg" },
-      { "legenda": "Ação extensionista com os alunos da UNIBRA", "foto": "/images/projeto/acao_extensionista_unibra.jpeg" },
-      { "legenda": "Ação extensionista no colégio", "foto": "/images/projeto/acao_extensionista_escola.jpeg" }
+      { "legenda": "Ação extensionista em frente ao IMIP", "foto": "/images/projeto/acao_extensionista_em_frente_imip.jpeg" }
     ]
   },
   "materiais": {
     "titulo": "Nosso trabalho escrito",
     "introducao": "Materiais produzidos pelo grupo, disponíveis para download gratuito.",
     "arquivos": [
-            { "titulo": "Trabalho Escrito do Projeto Científico", "tipo": "PDF", "url": "/images/projeto/fibrose_cistica_documento.pdf" }
+            { "titulo": "Trabalho Escrito do Projeto Científico", "tipo": "PDF", "url": "/images/projeto/trabalho_final_fibrose_cisticao.pdf" }
     ]
   },
   "equipe": {
